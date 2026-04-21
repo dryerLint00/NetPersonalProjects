@@ -6,7 +6,7 @@
 
 | Category | Description | Link |
 |---|---|---|
-| 🔀 Router | pfSense firewall setup & configuration | [Router](./router/README.md) |
+| 🔀 Router | pfSense firewall setup & configuration | [Router](./Router.md) |
 | 🔌 Switch | Switch setup & VLAN configuration | [Switch](./switch/README.md) |
 | 🖥️ Proxmox | Hypervisor setup & VM/LXC documentation | [Proxmox](./proxmox/README.md) |
 | ⚙️ Services | Self-hosted services & applications | [Services](./services/README.md) |
