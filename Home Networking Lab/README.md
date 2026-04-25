@@ -22,9 +22,9 @@
 - [ ] **Observability:** Deploy PRTG for network-wide monitoring.
 
 ---
-## Network Design
+### Network Design
 
-![Network Topology](Home%20Networking%20Lab/L2_LabTopology.drawio.svg)
+![Network Topology](images/topology.svg)
 
 ## 🛠️ Tech Stack
 This lab is managed via an **Infrastructure as Code (IaC)** philosophy, ensuring all configurations are version-controlled and reproducible.
