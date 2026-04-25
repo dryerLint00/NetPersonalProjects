@@ -27,6 +27,19 @@
 - [ ] Host and document self-hosted services
 - [ ] Manage thermals across all hardware
 
+## 🛠️ Tools Used
+
+This project is documented using an "Infrastructure as Code" philosophy to ensure clarity, portability, and version control.
+
+### Documentation & Management
+* **[Obsidian](https://obsidian.md/):** Used for drafting documentation in a local-first environment, ensuring all notes are portable and future-proof.
+* **[Git & GitHub](https://github.com/):** Acts as the central repository and version control system for all lab configurations, scripts, and documentation.
+* **[Mermaid.js](https://mermaid.js.org/):** Used for creating programmatic, version-controlled network diagrams and flowcharts directly within Markdown.
+
+### Lab Infrastructure
+* **[Proxmox VE](https://www.proxmox.com/):** The core hypervisor platform utilized for host virtualization and resource management.
+* **[EVE-NG](https://www.eve-ng.net/):** Employed for advanced network simulation, topology testing, and validation of OSPF/BGP configurations.
+* **[PRTG Network Monitor](https://www.paessler.com/prtg):** Used for real-time monitoring and alerting of the production and lab environments.
 
 **Current Phase:** Pre-setup planning  
 **Last Updated:** April 2026
