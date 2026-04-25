@@ -24,7 +24,7 @@
 ---
 ### Network Design
 
-![Network Topology](images/topology.svg)
+![Network Topology](Home%20Networking%20Lab/Images/Topology.svg)
 
 ## 🛠️ Tech Stack
 This lab is managed via an **Infrastructure as Code (IaC)** philosophy, ensuring all configurations are version-controlled and reproducible.
