@@ -13,33 +13,25 @@
 | 🌡️ Cooling Solutions | Rack & hardware cooling setup | [Cooling](./cooling/README.md) |
 | 🗄️ NAS | Network attached storage setup | [NAS](./nas/README.md) |
 
-📋 Overview
+## 🎯 Project Roadmap
+- [ ] **Network Core:** Replace ISP router with pfSense appliance.
+- [ ] **Segmentation:** Configure VLANs and inter-VLAN routing policies.
+- [ ] **Virtualization:** Deploy Proxmox VE for host management.
+- [ ] **Security:** Implement firewall rules, IDS/IPS, and traffic policies.
+- [ ] **Storage:** Centralize backups and media via NAS.
+- [ ] **Observability:** Deploy PRTG for network-wide monitoring.
 
-> This project covers the end-to-end setup of a self-hosted home lab and network. Built around a pfSense firewall, the lab includes a managed switch, Proxmox hypervisor, NAS storage, and various self-hosted services — all documented as I go.
+---
 
-🎯 Goals
+## 🛠️ Tech Stack
+This lab is managed via an **Infrastructure as Code (IaC)** philosophy, ensuring all configurations are version-controlled and reproducible.
 
-- [ ] Replace ISP router with a pfSense firewall box
-- [ ] Configure VLANs for network segmentation
-- [ ] Set up firewall rules and traffic policies
-- [ ] Deploy Proxmox and configure VMs/containers
-- [ ] Set up NAS for centralized storage
-- [ ] Host and document self-hosted services
-- [ ] Manage thermals across all hardware
+### Documentation & Workflow
+- **[Obsidian](https://obsidian.md/):** Local-first note-taking for technical documentation.
+- **[Git & GitHub](https://github.com/):** Version control for configurations and project logs.
+- **[Mermaid.js](https://mermaid.js.org/):** Programmatic diagramming for network topologies.
 
-## 🛠️ Tools Used
-
-This project is documented using an "Infrastructure as Code" philosophy to ensure clarity, portability, and version control.
-
-### Documentation & Management
-* **[Obsidian](https://obsidian.md/):** Used for drafting documentation in a local-first environment, ensuring all notes are portable and future-proof.
-* **[Git & GitHub](https://github.com/):** Acts as the central repository and version control system for all lab configurations, scripts, and documentation.
-* **[Mermaid.js](https://mermaid.js.org/):** Used for creating programmatic, version-controlled network diagrams and flowcharts directly within Markdown.
-
-### Lab Infrastructure
-* **[Proxmox VE](https://www.proxmox.com/):** The core hypervisor platform utilized for host virtualization and resource management.
-* **[EVE-NG](https://www.eve-ng.net/):** Employed for advanced network simulation, topology testing, and validation of OSPF/BGP configurations.
-* **[PRTG Network Monitor](https://www.paessler.com/prtg):** Used for real-time monitoring and alerting of the production and lab environments.
-
-**Current Phase:** Pre-setup planning  
-**Last Updated:** April 2026
+### Infrastructure & Services
+- **[Proxmox VE](https://www.proxmox.com/):** Enterprise-grade hypervisor.
+- **[EVE-NG](https://www.eve-ng.net/):** Network simulation and topology validation.
+- **[PRTG](https://www.paessler.com/prtg):** Real-time network health and performance monitoring.
