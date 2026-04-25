@@ -22,21 +22,31 @@
             }
           },
           {
-            "id": "254f7af80994bd7a",
+            "id": "591dd30162dd2002",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Home Networking Lab/Lab Topology.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-04-25 17.46.54.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-25 17.46.54.excalidraw"
+            }
+          },
+          {
+            "id": "dfb418dbaa85295c",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Home Networking Lab/L2_LabTopology.drawio.svg"
               },
               "icon": "lucide-file",
-              "title": "Lab Topology"
+              "title": "L2_LabTopology.drawio.svg"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,13 +205,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "254f7af80994bd7a",
+  "active": "db2d8cffb10bda50",
   "lastOpenFiles": [
-    "Home Networking Lab/Router.md",
     "Home Networking Lab/Lab Topology.md",
+    "Home Networking Lab/L2_LabTopology.drawio.svg",
+    "Home Networking Lab/Untitled Diagram.svg",
+    "Excalidraw/Drawing 2026-04-25 17.49.02.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-25 17.49.07.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-25 17.47.45.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-25 17.46.54.excalidraw.md",
+    "Excalidraw",
+    "Home Networking Lab/Router.md",
     "Welcome.md",
     "Home Networking Lab/README.md",
     "README.md",
